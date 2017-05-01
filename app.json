@@ -9,7 +9,7 @@
   "repository": "https://github.com/jesperfj/sfdx-simple",
   "success_url": "/",
   "addons": [
-    "force-devhub"
+    "force-devhub:test"
   ],
   "buildpacks": [
     {
