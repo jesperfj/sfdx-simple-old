@@ -1,4 +1,4 @@
-# Force.com Development with Heroku Sample App
+# Sample App: Force.com Development with Heroku
 
 ## Clone this code to your local computer
 
