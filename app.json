@@ -19,7 +19,7 @@
   "environments": {
     "test": {
       "scripts": {
-        "test": "curl -s $FORCE_DEVHUB_AUTH_URL | tar -C $HOME/.sfdx -xf - && sfdx force:testrunner:run -f config/test-runner.json -r tap"
+        "test": "sfdx force:testrunner:run -f config/test-runner.json -r tap"
       }
     }
   }
