@@ -1,0 +1,9 @@
+{
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "sfdx force:testrunner:run -f config/test-runner.json -r tap"
+      }
+    }
+  }
+}
