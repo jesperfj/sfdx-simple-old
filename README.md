@@ -1,29 +1,17 @@
 # Sample App: Force.com Development with Heroku
 
-### Clone this code to your local computer
+### Fork this repo
 
-    $ git clone https://github.com/jesperfj/sfdx-simple.git
+By forking it to your own Github account, you can start editing code right away after setting things up
 
-### Create a Heroku app
+### Clone your repo to your local computer
 
-    $ heroku create
+    $ git clone https://github.com/yourgithubuserororg/sfdx-simple.git
 
-### Set the Force.com buildpack
+### Set everything up 
 
-    $ heroku buildpacks:set https://github.com/jesperfj/force-buildpack.git
+    $ heroku pipelines:setup
 
-### Add the addon
+Answer all the prompts and when finished, your browser will open on a newly created pipeline. Depending on how you answered the prompts, review apps will be created automatically on new pull requests and tests will run on new commits.
 
-    $ heroku addons:create force-devhub:test
-
-### Link you Heroku account and Force.com Dev Hub
-
-Go to https://force-devhub.herokuapp.com and link your Developer Hub account to your Heroku Personal Account or one of your teams. If you link it to a team, then anyone who can create apps and addons on that team can authorize those apps to use the Developer Hub.
-
-### Push
-
-    $ git push heroku master
-
-### Test
-
-    $ heroku run test
+Note, Review apps are not really useful at this point. That may be addressed in the future.
