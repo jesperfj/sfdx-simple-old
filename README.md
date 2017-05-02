@@ -1,11 +1,5 @@
 # Sample App: Force.com Development with Heroku
 
-## Button Deploy
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
-## Manual
-
 ### Clone this code to your local computer
 
     $ git clone https://github.com/jesperfj/sfdx-simple.git
